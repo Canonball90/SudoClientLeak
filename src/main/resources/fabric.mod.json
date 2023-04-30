@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "sudo",
+  "version": "${version}",
+
+  "name": "Sudo client",
+  "description": "Sudo client 1.19",
+  "authors": [
+    "Nitaki_",
+    "CanonBalls90"
+  ],
+  "contact": {
+    "homepage": "https://itaki.xyz",
+    "sources": ""
+  },
+
+  "license": "",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "sudo.Client"
+    ]
+  },
+  "mixins": [
+  	"sudo.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

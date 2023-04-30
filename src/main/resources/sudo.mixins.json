@@ -1,0 +1,44 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sudo.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "AbstractClientPlayerEntityMixin",
+    "BlockRender",
+    "BoxMixin",
+    "ClientConnectionMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "EntityMixin",
+    "GameRender3D",
+    "InGameHudMixin",
+    "KeyboardMixin",
+    "MinecraftClientMixin",
+    "MixinCamera",
+    "MixinEntityRenderer",
+    "MixinHeldItemRenderer",
+    "MixinInGameOverlayRenderer",
+    "MixinParticleManager",
+    "MouseMixin",
+    "ParticleManagerMixin",
+    "PlayerEntityMixin",
+    "RenderEntityDispatcherMixin",
+    "SimpleOptionMixin",
+    "WorldRendererMixin",
+    "XRayLighting",
+    "accessors.ChunkAccessor",
+    "accessors.ClientPlayNetworkHandlerAccessor",
+    "accessors.PlayerMoveC2SPacketAccessor",
+    "accessors.IExplosionS2CPacketAccessor",
+    "accessors.IEntityVelocityUpdateS2CPacketAccessor",
+    "accessors.WorldRendererAccessor",
+    "accessors.FrustramAccessor",
+    "accessors.PlayerInputC2SPacketAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
